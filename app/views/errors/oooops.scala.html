@@ -1,0 +1,6 @@
+@(ex: Exception)(implicit request: RequestHeader)
+
+@layout("500", "server-error") {
+  <h2>500: Ooops</h2>
+  <p>@ex</p>
+}

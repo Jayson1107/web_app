@@ -1,0 +1,36 @@
+@()(implicit request: RequestHeader)
+@layout("首页", "home") {
+  <div class="contact">
+    <form name="form1" action="#" method="post" enctype="multipart/form-data">
+      <ul>
+        <li>
+          <label>昵称：</label>
+          <input style="width: 140px" type="text" name="nick_name" placeholder="请输入昵称" value="" onblur="checkna()" required=""><span class="tips" id="tipnickname"></span>
+        </li>
+        <li>
+          <label>密码：</label>
+          <input style="width: 240px" type="password" name="password_1" placeholder="输入8位以上密码" onblur="checkid()" required=""><span class="tips" id="divpassword1"></span>
+        </li>
+        <li>
+          <label>确认密码：</label>
+          <input style="width: 240px" type="password" name="password_2" placeholder="确认密码" onblur="checkid()" required=""><span class="tips" id="divpassword2"></span>
+        </li>
+        <li>
+          <label>邮箱：</label>
+          <input style="width: 240px" type="text" name="email" placeholder="请输入邮箱" onblur="checkid()" required=""><span class="tips" id="divemail"></span>
+        </li>
+        <li>
+          <label>性别：</label>
+          <input type="radio" style="  width: 120px;height: 25px;border-radius: 5px;" name="gender" value="0" checked/>男
+          <input type="radio" style="  width: 120px;height: 25px;border-radius: 5px;" name="gender" value="1"/>女 <span class="tips" id="divsex"></span>
+        </li>
+        <li>
+          <label>生日：</label>
+          <input style="  width: 240px;height: 25px;border-radius: 5px;" type="date" name="birthday"  required=""><span class="tips" id="divbirthday"></span>
+        </li>
+
+          <a class = "registersubmit"  style="text-decoration:none;" onclick="register(this)">注册</a><span class="tips" id="info1"></span>
+      </ul>
+    </form>
+  </div>
+}

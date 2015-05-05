@@ -1,0 +1,83 @@
+.forgetpass{
+    margin-top: 20px;
+    margin-left: 162px;
+    margin-bottom: -16px;
+}
+
+.welcome{
+    color: azure;
+    font-size: 37px;
+    margin-top: 200px;
+    margin-left: 400px;
+}
+
+.table {
+    border: 1px solid #90BFFF;
+    width: 517px;
+    margin-left: 500px;
+}
+
+.contact {
+    width: 600px;
+    height: auto;
+    margin: 10px auto;
+    margin-left: 500px;
+    padding: 10px;
+    border: dashed;
+    font-style: italic;
+    margin-top: 80px;
+}
+
+.contact ul {
+    width: 650px;
+    margin: 0 auto;
+}
+
+.contact ul li {
+    list-style: none;
+    padding: 12px;
+}
+
+.contact ul li label {
+    width: 90px;
+    display: inline-block;
+    float: left;
+    color: ghostwhite;
+}
+
+.contact ul li input[type=text], .contact ul li input[type=password] {
+    width: 220px;
+    height: 25px;
+    border: 1px solid #aaa;
+    padding: 3px 8px;
+    border-radius: 5px;
+}
+
+.registersubmit {
+    margin-left: 241px;
+    width: 100px;
+    margin-top: 14px;
+    height: 35px;
+    background-color: #0079ff;
+    color: #ffffff;
+    display: -moz-inline-stack;
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration:none;
+}
+
+.tips{
+    color: rgba(0, 0, 0, 0.5);
+    padding-left: 5px;
+}
+.tips_true,.tips_false{
+    padding-left: 5px;
+}
+.tips_true{
+    color: green;
+}
+.tips_false{
+    color: red;
+}

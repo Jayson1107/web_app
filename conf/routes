@@ -3,14 +3,17 @@
 # ~~~~
 
 # Home page
-GET         /                    controllers.Application.index
+GET                  /                    controllers.LoginCtrl.index
 
 # Map static resources from the /public folder to the /assets URL path
-GET         /assets/*file        controllers.Assets.versioned(path="/public", file: Asset)
+GET                  /assets/*file        controllers.Assets.versioned(path="/public", file: Asset)
 
 
 
-GET         /login               controllers.LoginCtrl.show
-POST        /login               controllers.LoginCtrl.login
+GET                  /login               controllers.LoginCtrl.show
+POST                 /login               controllers.LoginCtrl.login
+
+GET                  /register            controllers.LoginCtrl.registerIndex
+POST                 /register            controllers.LoginCtrl.register
 
     

@@ -8,9 +8,9 @@ object Config {
 
   val url = "jdbc:mysql://localhost/myapp"
 
-  val outputFolder = "../app/models"
+  val outputFolder = "app"
 
-  val pkg = "com.models"
+  val pkg = "models.myapp"
 
   val user = "instalment"
 
